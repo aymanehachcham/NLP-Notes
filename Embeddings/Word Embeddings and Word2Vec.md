@@ -30,10 +30,10 @@
 * Typically around 16, 32 size.
 * We create main and context embeddings. Vectors for main words and vectors for context words and negative samples:
 	* Vector for ***abricot***: $(0.1, 0.4, 1,5)$
-	* Vector for ***tablespoon***: $(0.1, 0.4, 1,5)$
-	* Vector for ***of***: $(0.1, 0.4, 1,5)$
-	* Vector for ***a***: $(0.1, 0.4, 1,5)$
-	* Vector for ***jam***: $(0.1, 0.4, 1,5)$
+	* Vector for ***tablespoon***: $(0.1, 0.3, 1,5)$
+	* Vector for ***of***: $(0.1, 0.2, 1,5)$
+	* Vector for ***a***: $(0.1, 0.4, 5)$
+	* Vector for ***jam***: $(0.1, -0.7, 1,5)$
 	* ....
 #### Algorithm
 * For each main and context word we:
@@ -62,3 +62,11 @@
 * **CBOW**: Context words -> predict main word
 * **Skip Gram**: main word -> predict context words
 ![image](images/cbow.png)
+* CBOW trains faster and is slightly better than Skip-Gram.
+
+[[GloVe and Fast Text]]
+
+### Biases
+* Increases sexism and it's sometimes unfair
+* It also amplifies gender biasis
+

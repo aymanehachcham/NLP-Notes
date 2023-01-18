@@ -18,8 +18,45 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "b8b233ad0b6533f6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Embeddings/Word Embeddings and Word2Vec.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "6e1b5d85c3ee6162",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Transformers/Neural Language Models.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "f426318302a12fbc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Transformers/Encoder Decoder Architectures.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -85,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Embeddings/Word Embeddings and Word2Vec.md",
+                "file": "Transformers/Encoder Decoder Architectures.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Embeddings/Word Embeddings and Word2Vec.md",
+                "file": "Transformers/Encoder Decoder Architectures.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Embeddings/Word Embeddings and Word2Vec.md"
+                "file": "Transformers/Encoder Decoder Architectures.md"
               }
             }
           }
@@ -146,17 +183,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "e26a72388a7d336e",
+  "active": "f426318302a12fbc",
   "lastOpenFiles": [
+    "Transformers/RNN Architectures.md",
+    "images/encod.png",
+    "images/cell.png",
+    "Transformers/Encoder Decoder Architectures.md",
+    "Transformers/Neural Language Models.md",
+    "Embeddings/Word Embeddings and Word2Vec.md",
+    "Embeddings/GloVe and Fast Text.md",
     "Topic Modeling/Probabilistic Models.md",
     "Untitled.canvas",
-    "Embeddings/Word Embeddings and Word2Vec.md",
-    "Language Models/Evaluation of Probabilistic Language Models.md",
-    "Language Models/N-Grams.md",
-    "POS/Conditional Random Fields.md",
-    "Classification/Text Classification.md",
-    "images/mmber.png",
-    "Topic Modeling/Non Probabilistic Models.md",
-    "Classification/Feature Selection.md"
+    "Language Models/Evaluation of Probabilistic Language Models.md"
   ]
 }
